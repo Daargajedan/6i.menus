@@ -30,9 +30,9 @@ You can simple create a widget, add the parent view to the parent option. This i
 ```
 // Add the widget to the window, tabgroup or other view. (Best is to add it to the parent view.)
 $.menus = Alloy.createWidget('6i.menus', {
-	debug    : true,
+  debug    : true,	// Set debug to true to to get some feedback in the console.
   parent   : $.win,     // Add to Wich window, tabgroup or view.
-  style    : 'bottom',  // bottom, mid
+  style    : bottom',	// bottom, mid
 
   // Can be overwritten by open
   showNavBar    : true,     // Show navbar on top of menu
@@ -72,7 +72,7 @@ $.menus.open({
   showCloseBtn  : true,     // Doesnt work with dialog style
 
   // Default data
-  styles        : 'dialog',                  //
+  styles        : 'dialog',                 // Open a message in dialog style.
   title         : 'My dialog title',        // A title.
   message       : 'You like this dialog?',  // A message for the dialog.
   icon          : 'null',                   // Url to an icon.
@@ -87,7 +87,7 @@ In the param items, you can add menu rows (TableList) or in the dialog style, ad
 ```
 
 var dialogOptions = [{
-    title:  'Item 1 (Has Callback) Close',	// Title
+    title:  'Item 1 (Has Callback) Close',	// Title for the button
     callback: function(){			// The callback after clicked the menu item.
       $.menus.close();				// The close methode is public
       alert('You clicked item: 1');
@@ -177,7 +177,8 @@ ____
 # License
 
 PDF Generator is licensed under MIT.
-
+See [LICENSE.md](LICENSE.md) file.
+ 
 ```
 GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
@@ -185,6 +186,4 @@ GNU GENERAL PUBLIC LICENSE
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
-
- See [LICENSE.md](LICENSE.md) file.
 ```
