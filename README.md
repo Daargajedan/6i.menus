@@ -11,7 +11,7 @@ Titanium Alloy widget for custom bottom menu and dialog. for IOS and Android. Ad
 
 ## Installing with gitt.io
 
-Install and add this component to your project:
+Download this repository and consult the [Alloy Documentation](http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_XML_Markup-section-35621528_AlloyXMLMarkup-ImportingWidgets) on how to install it, or simply use the [gitTio CLI](http://gitt.io/cli):
 
 ```
 $ gittio install 6i.menus
@@ -154,7 +154,7 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 ## To do
 
 - Check why and if scroll the content back up again when you open the dialog again
-- There are some typos :slightly_smiling_face:
+- There are some typos
 
 - Add icons to dialog buttons, and menu row items.
 ```
