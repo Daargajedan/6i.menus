@@ -1,5 +1,6 @@
 tmp
 .DS_Store
+Resources/*
 build/iphone/*
 !build/iphone/.gitignore
 build/android/*

@@ -5,9 +5,9 @@ Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adj
 
 ## Examples:
 
-![Example 1 - Menu bottom](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/1.png)
-![Example 2 - Menu mid](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/2.png)
-![Example 3 - Dialog](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/3.png)
+![Example 1 - Menu bottom](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/1.png) |
+![Example 2 - Menu mid](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/2.png) |
+![Example 3 - Dialog](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/3.png) |
 ![Example 4 - Dialog 2](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/4.png)
 
 ## Installing manualy
