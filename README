@@ -1,1 +1,42 @@
-Hello
+# 6i Menus
+
+Titanium Aloy widget for costum bottom menu and dialog.
+
+# Installing
+
+1. Download this project and open the .zip file.
+2. Copy the app/widgets/6i.menus to youre project in app/widgets/
+
+
+# Theme
+There is a theme file ready to use see code, app/themes/default/widgets/6i.menus/
+
+# Built With
+
+* [Axway Appcelerator Titanium](https://www.appcelerator.com/) - Mobile Development Platform
+* [Atom](https://atom.io/) - A hackable text editor for the 21st Century
+* Knowledge :)
+
+  ____                                ______  ____
+ /'___\  __                   /'\_/`\/\  _  \/\  _`\
+/\ \__/ /\_\                 /\      \ \ \L\ \ \ \/\ \
+\ \  _``\/\ \      _______   \ \ \__\ \ \  __ \ \ \ \ \
+ \ \ \L\ \ \ \    /\______\   \ \ \_/\ \ \ \/\ \ \ \_\ \
+  \ \____/\ \_\   \/______/    \ \_\\ \_\ \_\ \_\ \____/
+   \/___/  \/_/                 \/_/ \/_/\/_/\/_/\/___/
+
+
+# License
+
+PDF Generator is licensed under MIT.
+
+```
+GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+ See LICENSE file.
+```
