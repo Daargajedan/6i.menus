@@ -1,8 +1,9 @@
-# 6i Menus
+# 6i Menus  [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
+
 
 Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
-## Installing
+## Installing manualy
 
 1. Download this project and open the .zip file.
 2. Copy the app/widgets/6i.menus to you're project in app/widgets/
@@ -74,6 +75,10 @@ $.menus.open({
 
 # Theme
 There is a theme file ready to use see code, app/themes/default/widgets/6i.menus/
+
+## Changelog
+
+- None
 
 # Built With
 
