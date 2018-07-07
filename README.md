@@ -1,4 +1,5 @@
 # 6i Menus  [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
+### Get it [![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/6i.menus)
 
 Titanium Alloy widget for custom bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
@@ -21,7 +22,7 @@ $ gittio install 6i.menus
 
 1. Download this project and open the .zip file.
 2. Copy the app/widgets/6i.menus to you're project in app/widgets/
-3. Update you're app/config.json file () add 	"6i.menus":"0.2" to  dependencies like
+3. Update you're app/config.json file add "6i.menus":"0.2" to dependencies like
 ```
 "dependencies": {
 	"6i.menus":"0.2"
@@ -154,8 +155,6 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 ## To do
 
 - Check why and if scroll the content back up again when you open the dialog again
-- There are some typos
-
 - Add icons to dialog buttons, and menu row items.
 ```
 {
@@ -173,6 +172,7 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 # Done
 - X The example menu items are a bit hard to click on. Make the lines a bit higher so its easier to select a demo
 - X Clean up the widget: row.js line 10/11? same data variable in button.js and some comments and a $ at the end
+- X There are some typos
 
 # Built With
 

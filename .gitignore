@@ -1,6 +1,7 @@
 .DS_Store
 /Resources
 /platform
+/build
 /i18n
 build.log
 build
@@ -11,3 +12,4 @@ tmp
 .settings
 Thumbs.db
 plugins/ti.alloy
+build/build_iphone.log
