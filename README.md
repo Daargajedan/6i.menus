@@ -87,14 +87,14 @@ In the param items, you can add menu rows (TableList) or in the dialog style, ad
 ```
 
 var dialogOptions = [{
-    title:  'Item 1 (Has Callback) Close',							// Title
-    callback: function(){																// The callback after clicked the menu item.
-      $.menus.close();																	// The close methode is public
+    title:  'Item 1 (Has Callback) Close',	// Title
+    callback: function(){			// The callback after clicked the menu item.
+      $.menus.close();				// The close methode is public
       alert('You clicked item: 1');
     }
 }, {
     title:  'Item 2 (Has Callback) Close on args.',
-    doClose: true,																			// Close the menu after clicked
+    doClose: true,				// Close the menu after clicked
     callback: function(){
       alert('You clicked item: 2');
     }
@@ -111,9 +111,9 @@ var dialogOptions = [{
 ```
 
 var dialogOptions = [{
-    title:  'Cancel',			// The button text
+    title:  'Cancel',				// The button text
     doClose: true,				// Close the menu after clicked
-    callback: function(){ // Set a function to call after clicked
+    callback: function(){ 			// Set a function to call after clicked
     }
 },{
     title:  'No',
@@ -145,12 +145,12 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 
 ```
 {
-    title:  'Item 1 (Has Callback) Close',							// Title
+    title:  'Item 1 (Has Callback) Close',	// Title
 
-		icon: 	'',																					// <- Still to make || Add an icon to the item.
+		icon: 	'',			// <- Still to make || Add an icon to the item.
 
-		callback: function(){																// The callback after clicked the menu item.
-      $.menus.close();																	// The close methode is public
+		callback: function(){		// The callback after clicked the menu item.
+      $.menus.close();				// The close methode is public
       alert('You clicked item: 1');
     }
 }
