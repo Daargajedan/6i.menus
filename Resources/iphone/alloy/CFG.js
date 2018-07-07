@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"6i.menus":"0.1"},"theme":"default"};
