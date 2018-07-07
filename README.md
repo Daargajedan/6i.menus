@@ -4,10 +4,11 @@
 Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
 ## Examples:
-![Example 1 - ](https://Daargajedan.github.com/images/)
-![Example 2 - ](https://Daargajedan.github.com/images/)
-![Example 3 - ](https://Daargajedan.github.com/images/)
-![Example 4 - ](https://Daargajedan.github.com/images/)
+
+![Example 1 - Menu bottom](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/1.png)
+![Example 2 - Menu mid](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/2.png)
+![Example 3 - Dialog](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/3.png)
+![Example 4 - Dialog 2](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/4.png)
 
 ## Installing manualy
 
@@ -79,12 +80,81 @@ $.menus.open({
 });
 ```
 
+### Data for Items:
+In the param items, you can add menu rows (TableList) or in the dialog style, add buttons to the menu.
+
+## Menu
+```
+
+var dialogOptions = [{
+    title:  'Item 1 (Has Callback) Close',							// Title
+    callback: function(){																// The callback after clicked the menu item.
+      $.menus.close();																	// The close methode is public
+      alert('You clicked item: 1');
+    }
+}, {
+    title:  'Item 2 (Has Callback) Close on args.',
+    doClose: true,																			// Close the menu after clicked
+    callback: function(){
+      alert('You clicked item: 2');
+    }
+}, {
+    title:  'Item 3 (Has Callback)',
+    callback: function(){
+      alert('You clicked item: 3');
+    }
+}];
+
+```
+
+## Dialog
+```
+
+var dialogOptions = [{
+    title:  'Cancel',			// The button text
+    doClose: true,				// Close the menu after clicked
+    callback: function(){ // Set a function to call after clicked
+    }
+},{
+    title:  'No',
+    doClose: true,
+    callback: function(){
+      alert('Why not?');
+    }
+},{
+    title:  'Yes',
+    doClose: true,
+    callback: function(){
+      alert('Thank you!! ;) ');
+    }
+}];
+
+```
+
+
 # Theme
 There is a theme file ready to use see code, app/themes/default/widgets/6i.menus/
 
 ## Changelog
 
 - None
+
+## To do
+
+- Add icons to dialog buttons, and menu row items.
+
+```
+{
+    title:  'Item 1 (Has Callback) Close',							// Title
+
+		icon: 	'',																					// <- Still to make || Add an icon to the item.
+
+		callback: function(){																// The callback after clicked the menu item.
+      $.menus.close();																	// The close methode is public
+      alert('You clicked item: 1');
+    }
+}
+```
 
 # Built With
 
