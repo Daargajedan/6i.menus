@@ -6,6 +6,12 @@ Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adj
 
 1. Download this project and open the .zip file.
 2. Copy the app/widgets/6i.menus to youre project in app/widgets/
+3. Update youre config.json file () add 	"6i.menus":"0.1" to  dependencies like
+```
+"dependencies": {
+	"6i.menus":"0.1" 
+}
+```
 
 # Usage
 You can simple create a widget, add the parent view to the parent option. This is root view.
