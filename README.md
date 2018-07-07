@@ -1,7 +1,7 @@
 # 6i Menus  [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
 
 
-Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
+Titanium Alloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
 ## Examples:
 
