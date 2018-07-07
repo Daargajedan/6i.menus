@@ -145,13 +145,13 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 
 ```
 {
-    title:  'Item 1 (Has Callback) Close',	// Title
+    title: 'Item 1 (Has Callback) Close',	// Title
 
-		icon: 	'',			// <- Still to make || Add an icon to the item.
+    icon:  '',					// <- Still to make || Add an icon to the item.
 
-		callback: function(){		// The callback after clicked the menu item.
-      $.menus.close();				// The close methode is public
-      alert('You clicked item: 1');
+    callback: function(){			// The callback after clicked the menu item.
+        $.menus.close();			// The close methode is public
+        alert('You clicked item: 1');
     }
 }
 ```
