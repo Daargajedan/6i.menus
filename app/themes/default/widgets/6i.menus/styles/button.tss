@@ -1,0 +1,13 @@
+
+"#button":{
+	backgroundColor: "#C06C84",
+	borderRadius			: 0,
+}
+
+"#title":{
+	color		: "#FFF",
+	font		: {
+		fontWeight	: 'bold',
+		fontSize		: 18
+	},
+}

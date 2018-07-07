@@ -1,0 +1,92 @@
+"#mask":{
+	/* Don't ajust below */
+	top: 0,
+	right: 0,
+	bottom: 0,
+	left: 0,
+	visible: false,
+},
+"#menuContainer":{
+	/* Don't ajust below */
+	// bottom					: 0, // In controller
+	height					: "0", // Adjusted in controller
+	width						: '90%',
+	layout					: 'vertical',
+},
+"#menuTable":{
+	/* Don't ajust below */
+	//height				: Ti.UI.SIZE,
+	width					: Ti.UI.FILL,
+}
+"#marginTop":{
+		/* Don't ajust below */
+		height				: "22dp",
+}
+"#marginBottom":{
+		/* Don't ajust below */
+		height				: "22dp",
+}
+"#marginTop[if=Alloy.Globals.isIPhoneX]":{
+		/* Don't ajust below */
+		height				: "44dp",
+}
+"#marginBottom[if=Alloy.Globals.isIPhoneX]":{
+		/* Don't ajust below */
+		height				: "44dp",
+}
+
+// navBar leftBtn
+"#menu": {
+	/* Don't ajust below */
+	top: 0,
+	bottom: 0,
+	bubbleParent		: false,
+	// height					: Ti.UI.FILL, // Is set in cotroller
+	width						: Ti.UI.FILL,
+	layout					: 'vertical',
+}
+"#navBar": {
+	/* Don't ajust below */
+	width		: Ti.UI.FILL,
+	// height	: "44dp", // Is set in controller
+	// layout	: 'horizontal',
+}
+".navBarBtn": {
+	/* Don't ajust below */
+	width		: Ti.UI.SIZE,
+	height	: Ti.UI.FILL,
+}
+"#icon":{
+	/* Don't ajust below */
+	height	: "38dp",
+	width		: "38dp",
+	top		: 4,
+	left		: 4,
+}
+"#leftBtn": {
+	left: 0,
+}
+"#rightBtn": {
+	right: 0,
+}
+"#title": {
+	/* Don't ajust below */
+	width		: Ti.UI.FILL,
+	height	: Ti.UI.FILL,
+	top			: 0,
+	left 		:	49,
+	right 	:	44,
+}
+"#message":{
+	top: 5,
+	right: 5,
+	bottom: 5,
+	left: 5,
+}
+"#btnBar":{
+
+	/* Don't ajust below */
+	layout: 'horizontal',
+	height: '44dp',
+	width: Ti.UI.FILL,
+}

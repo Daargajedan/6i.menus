@@ -1,0 +1,35 @@
+<Alloy>
+	<Window id="win" class="container">
+		<View id="statusBar"></View>
+		<View id="navBar"><Label id="navBarTitle">6i Menu example</Label></View>
+		<ScrollView id="container">
+			<View class="margin"></View>
+
+			<Label class="title">STYLE BOTTOM</Label>
+			<Label onClick="openMenu">Open Menu</Label>
+
+			<Label onClick="openMenu" dataTitle="New title from menu">Open Menu Title: "New title from menu"</Label>
+			<Label onClick="openMenu" dataShowNavBar=null>Open Menu: No NavBar</Label>
+			<Label onClick="openMenu" dataShowNavBar=true>Open Menu: With NavBar</Label>
+			<Label onClick="openMenu" dataShowBtnBar="null">Open Menu: No Close button</Label>
+			<Label onClick="openMenu" dataIcon="https://nl.xtv.nu/img/channel/logo/64/_33b2ca74-0cc1-11e8-ba67-a8387f729390-5b342bb54c79599a722f22ce.png">Open Menu: open with icon</Label>
+			<Label onClick="openMenu" dataIcon=undefined>Open Menu: Without icon</Label>
+
+
+			<View class="margin"></View>
+
+			<Label class="title">STYLE MID</Label>
+			<Label onClick="openMenu" dataStyle="mid">Open Menu</Label>
+
+			<View class="margin"></View>
+
+			<Label class="title">STYLE DIALOG</Label>
+			<Label onClick="openMenu" dataStyle="dialog">Dialog open</Label>
+			<Label onClick="openMenu" dataStyle="dialog" dataDataSet="one" dataMessage="Hello this is the dialog">Dialog open one btn</Label>
+			<Label onClick="openMenu" dataStyle="dialog" dataDataSet="two" dataMessage="Hello this is the dialog, with an large message so we can have some lines in it and we can test if the text will brake or not and if the reszie function is working properly.">Dialog open two btns longer message</Label>
+			<Label onClick="openMenu" dataStyle="dialog" dataDataSet="three" dataMessage="Hello this is the dialog">Dialog open three btns</Label>
+			<Label onClick="openMenu" dataStyle="dialog" dataDataSet="long" dataMessage="Hello this is the dialog">Dialog open long</Label>
+
+		</ScrollView>
+	</Window>
+</Alloy>

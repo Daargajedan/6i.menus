@@ -1,0 +1,14 @@
+{
+	"global": {
+		"theme":"default"
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:ios": {},
+	"os:windows": {},
+	"dependencies": {
+			"6i.menus":"0.1"
+	}
+}

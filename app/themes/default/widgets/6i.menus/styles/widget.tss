@@ -1,0 +1,75 @@
+/*
+	#F8B195
+	#F67280
+	#C06C84
+	#6C5B7B
+	#355C7D */
+
+/*
+	Only adjust colors
+*/
+"#mask":{
+	backgroundColor: "#80000000",
+},
+"#menuContainer":{
+	/* Don't ajust below */
+	// bottom					: 0, // In controller
+	// height					: "0", // Adjusted in controller
+},
+"#menuTable":{
+	backgroundColor	: 'transparent',
+	separatorStyle	: Ti.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE,
+
+}
+"#marginTop":{
+
+}
+"#marginBottom":{
+
+}
+
+// navBar leftBtn
+"#menu": {
+	borderRadius			: 8,
+	backgroundColor		: '#F8B195',
+}
+"#navBar": {
+	backgroundColor: '#F67280',
+	/* Don't ajust below */
+}
+".navBarBtn": {
+	width		: Ti.UI.SIZE,
+	height	: Ti.UI.FILL,
+}
+"#icon":{
+	backgroundColor: "#000",
+	borderRadius: "22",
+}
+"#leftBtn": {
+
+}
+"#rightBtn": {
+
+}
+"#title": {
+	color		: "#FFF",
+ 	font		: {
+		fontWeight	: 'bold',
+		fontSize		: 18
+	},
+}
+"#message":{
+	color		: "#FFF",
+ 	font		: {
+		fontSize		: 16
+	},
+	bottom: 0,
+}
+"#btnBar":{
+	borderRadius			: 8,
+	height: 34,
+	top: 5,
+	right: 5,
+	bottom: 5,
+	left: 5,
+}

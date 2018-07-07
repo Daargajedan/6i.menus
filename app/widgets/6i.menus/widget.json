@@ -1,0 +1,12 @@
+{
+	"id": "6i.menus",
+	"description" : "",
+	"author": "Maarten Dreves",
+	"version": "0.1",
+	"copyright":"",
+	"license":"Public Domain",
+	"min-alloy-version": "0.1.16",
+	"min-titanium-version":"2.0",
+	"tags":"utility",
+	"platforms":"android,ios"
+}

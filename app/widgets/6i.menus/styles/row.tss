@@ -1,0 +1,9 @@
+"#row":{
+  /* Don't ajust below */
+  // height	: "44dp", // Is set in controller
+}
+"#title":{
+    /* Don't ajust below */
+    touchEnabled: false,
+    bubbleParent: true,
+}

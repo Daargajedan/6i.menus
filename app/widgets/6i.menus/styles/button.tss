@@ -1,0 +1,17 @@
+"#container":{
+	/* Don't ajust below */
+}
+"#button":{
+	/* Don't ajust below */
+	width	: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	touchEnabled: false,
+	bubbleParent: true,
+}
+"#title":{
+	/* Don't ajust below */
+	width		: Ti.UI.SIZE,
+	height	: Ti.UI.FILL,
+	touchEnabled: false,
+	bubbleParent: true,
+}

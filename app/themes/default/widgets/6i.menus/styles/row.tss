@@ -1,0 +1,11 @@
+"#row":{
+  // On Click
+  selectedBackgroundColor : '#F8B195',
+  /* Don't ajust below */
+  // height	: "44dp", // Is set in controller
+}
+"#title":{
+    color: '#6C5B7B',
+    left: 10,
+    /* Don't ajust below */
+}

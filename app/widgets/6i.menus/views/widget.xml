@@ -1,0 +1,19 @@
+<Alloy>
+  <View id="mask">
+    <View id="menuContainer">
+      <View id="marginTop"></View>
+      <View id="menu">
+        <View id="navBar">
+          <View id="leftBtn" class="navBarBtn"><ImageView id="icon"></ImageView></View>
+          <Label id="title" />
+          <View id="rightBtn" class="navBarBtn"></View>
+        </View>
+        <Label id="message" />
+        <TableView id="menuTable"></TableView>
+        <View id="btnBar">
+        </View>
+      </View>
+      <View id="marginBottom"></View>
+    </View>
+  </View>
+</Alloy>

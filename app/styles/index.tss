@@ -1,0 +1,71 @@
+/*
+#F8B195
+#F67280
+#C06C84
+#6C5B7B
+#355C7D
+*/
+
+"Window":{
+	backgroundColor	: "#F8B195",
+}
+"#statusBar": {
+		top		: 0,
+		height	: "22dp",
+		width	: Ti.UI.FILL,
+		backgroundColor: "#F67280",
+},
+"#navBar": {
+		top			: "22dp",
+		height	: "44dp",
+		width		: Ti.UI.FILL,
+		backgroundColor: "#F67280",
+},
+"#statusBar[if=Alloy.Globals.isIPhoneX]":{
+		height				: "44dp",
+}
+"#navBar[if=Alloy.Globals.isIPhoneX]":{
+		top			: "44dp",
+		height	: "44dp",
+}
+"#navBarTitle": {
+	width		: Ti.UI.SIZE,
+	height	: Ti.UI.SIZE,
+	color	: "#FFF",
+	font: {
+		fontWeight: 'bold',
+		fontSize: 18
+	}
+}
+"#marginTop[if=Alloy.Globals.isIPhoneX]":{
+		/* Don't ajust below */
+		height				: "44dp",
+}
+"#marginBottom[if=Alloy.Globals.isIPhoneX]":{
+		/* Don't ajust below */
+		height				: "44dp",
+}
+"#container": {
+		top			: "88dp",
+		bottom	: 0,
+		width		: Ti.UI.FILL,
+		layout	: 'vertical',
+},
+
+"Label": {
+	width	: Ti.UI.SIZE,
+	height	: Ti.UI.SIZE,
+	color	: "#355C7D"
+}
+".margin": {
+		height: "44dp",
+}
+".title": {
+	width	: Ti.UI.SIZE,
+	height	: Ti.UI.SIZE,
+	color	: "#355C7D",
+	font: {
+		fontWeight: 'bold',
+		fontSize: 18
+	}
+}
