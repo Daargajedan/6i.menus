@@ -76,6 +76,9 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 * [Atom](https://atom.io/) - A hackable text editor for the 21st Century
 * Knowledge :)
 
+____
+
+```
   ____                                ______  ____
  /'___\  __                   /'\_/`\/\  _  \/\  _`\
 /\ \__/ /\_\                 /\      \ \ \L\ \ \ \/\ \
@@ -83,7 +86,7 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
  \ \ \L\ \ \ \    /\______\   \ \ \_/\ \ \ \/\ \ \ \_\ \
   \ \____/\ \_\   \/______/    \ \_\\ \_\ \_\ \_\ \____/
    \/___/  \/_/                 \/_/ \/_/\/_/\/_/\/___/
-
+```
 
 # License
 
