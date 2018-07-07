@@ -3,6 +3,12 @@
 
 Titanium Aloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
+## Examples:
+![Example 1 - ](https://Daargajedan.github.com/images/)
+![Example 2 - ](https://Daargajedan.github.com/images/)
+![Example 3 - ](https://Daargajedan.github.com/images/)
+![Example 4 - ](https://Daargajedan.github.com/images/)
+
 ## Installing manualy
 
 1. Download this project and open the .zip file.
