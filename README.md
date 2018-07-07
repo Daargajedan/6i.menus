@@ -1,23 +1,30 @@
 # 6i Menus  [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://appcelerator.com/titanium/) [![Appcelerator Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://appcelerator.com/alloy/)
 
-
-Titanium Alloy widget for costum bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
+Titanium Alloy widget for custom bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.
 
 ## Examples:
 
-![Example 1 - Menu bottom](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/1.png) 
-![Example 2 - Menu mid](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/2.png) 
-![Example 3 - Dialog](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/3.png) 
+![Example 1 - Menu bottom](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/1.png)
+![Example 2 - Menu mid](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/2.png)
+![Example 3 - Dialog](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/3.png)
 ![Example 4 - Dialog 2](https://raw.githubusercontent.com/Daargajedan/6i.menus/master/example/images/4.png)
 
-## Installing manualy
+## Installing with gitt.io
+
+Install and add this component to your project:
+
+```
+$ gittio install 6i.menus
+```
+
+## Installing manually
 
 1. Download this project and open the .zip file.
 2. Copy the app/widgets/6i.menus to you're project in app/widgets/
-3. Update you're app/config.json file () add 	"6i.menus":"0.1" to  dependencies like
+3. Update you're app/config.json file () add 	"6i.menus":"0.2" to  dependencies like
 ```
 "dependencies": {
-	"6i.menus":"0.1"
+	"6i.menus":"0.2"
 }
 ```
 
@@ -45,10 +52,9 @@ $.menus = Alloy.createWidget('6i.menus', {
 });
 ```
 
-
 ### Show a message:
 
-The default options set in the createWidget will be default the options set in the open methode will override the default options.
+The default options set in the createWidget will be default the options set in the open method will override the default options.
 Use null, undefined, 'null', 'undefined' to empty the values or remove titles messages etc.
 
 ```
@@ -137,12 +143,20 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 
 ## Changelog
 
-- None
+- 0.2
+	- Cleaned up row.js, removed invalid code, and removed old code.
+	- Cleaned up button.js. Removed the clean up from the data given in widget.js (height)
+	- Updated gitignore
+	- Updated index.js made the labels bigger, easer to click or touch on.
+	- Edit some typo's
+	- Special thanks to Michael for this update.
 
 ## To do
 
-- Add icons to dialog buttons, and menu row items.
+- Check why and if scroll the content back up again when you open the dialog again
+- There are some typos :slightly_smiling_face:
 
+- Add icons to dialog buttons, and menu row items.
 ```
 {
     title: 'Item 1 (Has Callback) Close',	// Title
@@ -156,11 +170,21 @@ There is a theme file ready to use see code, app/themes/default/widgets/6i.menus
 }
 ```
 
+# Done
+- X The example menu items are a bit hard to click on. Make the lines a bit higher so its easier to select a demo
+- X Clean up the widget: row.js line 10/11? same data variable in button.js and some comments and a $ at the end
+
 # Built With
 
 * [Axway Appcelerator Titanium](https://www.appcelerator.com/) - Mobile Development Platform
 * [Atom](https://atom.io/) - A hackable text editor for the 21st Century
 * Knowledge :)
+
+____
+
+# Thanks to
+
+- Michael Gangolf | for checking the repo and testing on Android.
 
 ____
 
@@ -178,7 +202,7 @@ ____
 
 PDF Generator is licensed under MIT.
 See [LICENSE.md](LICENSE.md) file.
- 
+
 ```
 GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007

@@ -59,7 +59,7 @@ function Controller() {
 
   $.__views.win.add($.__views.navBar);
   $.__views.navBarTitle = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#FFF", font: { fontWeight: "bold", fontSize: 18 }, text: '6i Menu example', id: "navBarTitle" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#FFF", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18, fontWeight: "bold" }, text: '6i Menu example', id: "navBarTitle" });
 
   $.__views.navBar.add($.__views.navBarTitle);
   $.__views.container = Ti.UI.createScrollView(
@@ -71,35 +71,35 @@ function Controller() {
 
   $.__views.container.add($.__views.__alloyId0);
   $.__views.__alloyId1 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", font: { fontWeight: "bold", fontSize: 18 }, text: 'STYLE BOTTOM', id: "__alloyId1" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 24, fontWeight: "bold" }, text: 'STYLE BOTTOM', id: "__alloyId1" });
 
   $.__views.container.add($.__views.__alloyId1);
   $.__views.__alloyId2 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu', id: "__alloyId2" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu', id: "__alloyId2" });
 
   $.__views.container.add($.__views.__alloyId2);
   openMenu ? $.addListener($.__views.__alloyId2, 'click', openMenu) : __defers['$.__views.__alloyId2!click!openMenu'] = true;$.__views.__alloyId3 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu Title: "New title from menu"', dataTitle: "New title from menu", id: "__alloyId3" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu Title: "New title from menu"', dataTitle: "New title from menu", id: "__alloyId3" });
 
   $.__views.container.add($.__views.__alloyId3);
   openMenu ? $.addListener($.__views.__alloyId3, 'click', openMenu) : __defers['$.__views.__alloyId3!click!openMenu'] = true;$.__views.__alloyId4 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu: No NavBar', dataShowNavBar: "null", id: "__alloyId4" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu: No NavBar', dataShowNavBar: "null", id: "__alloyId4" });
 
   $.__views.container.add($.__views.__alloyId4);
   openMenu ? $.addListener($.__views.__alloyId4, 'click', openMenu) : __defers['$.__views.__alloyId4!click!openMenu'] = true;$.__views.__alloyId5 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu: With NavBar', dataShowNavBar: true, id: "__alloyId5" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu: With NavBar', dataShowNavBar: true, id: "__alloyId5" });
 
   $.__views.container.add($.__views.__alloyId5);
   openMenu ? $.addListener($.__views.__alloyId5, 'click', openMenu) : __defers['$.__views.__alloyId5!click!openMenu'] = true;$.__views.__alloyId6 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu: No Close button', dataShowBtnBar: "null", id: "__alloyId6" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu: No Close button', dataShowBtnBar: "null", id: "__alloyId6" });
 
   $.__views.container.add($.__views.__alloyId6);
   openMenu ? $.addListener($.__views.__alloyId6, 'click', openMenu) : __defers['$.__views.__alloyId6!click!openMenu'] = true;$.__views.__alloyId7 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu: open with icon', dataIcon: "https://nl.xtv.nu/img/channel/logo/64/_33b2ca74-0cc1-11e8-ba67-a8387f729390-5b342bb54c79599a722f22ce.png", id: "__alloyId7" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu: open with icon', dataIcon: "https://nl.xtv.nu/img/channel/logo/64/_33b2ca74-0cc1-11e8-ba67-a8387f729390-5b342bb54c79599a722f22ce.png", id: "__alloyId7" });
 
   $.__views.container.add($.__views.__alloyId7);
   openMenu ? $.addListener($.__views.__alloyId7, 'click', openMenu) : __defers['$.__views.__alloyId7!click!openMenu'] = true;$.__views.__alloyId8 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu: Without icon', dataIcon: "undefined", id: "__alloyId8" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu: Without icon', dataIcon: "undefined", id: "__alloyId8" });
 
   $.__views.container.add($.__views.__alloyId8);
   openMenu ? $.addListener($.__views.__alloyId8, 'click', openMenu) : __defers['$.__views.__alloyId8!click!openMenu'] = true;$.__views.__alloyId9 = Ti.UI.createView(
@@ -107,11 +107,11 @@ function Controller() {
 
   $.__views.container.add($.__views.__alloyId9);
   $.__views.__alloyId10 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", font: { fontWeight: "bold", fontSize: 18 }, text: 'STYLE MID', id: "__alloyId10" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 24, fontWeight: "bold" }, text: 'STYLE MID', id: "__alloyId10" });
 
   $.__views.container.add($.__views.__alloyId10);
   $.__views.__alloyId11 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Open Menu', dataStyle: "mid", id: "__alloyId11" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Open Menu', dataStyle: "mid", id: "__alloyId11" });
 
   $.__views.container.add($.__views.__alloyId11);
   openMenu ? $.addListener($.__views.__alloyId11, 'click', openMenu) : __defers['$.__views.__alloyId11!click!openMenu'] = true;$.__views.__alloyId12 = Ti.UI.createView(
@@ -119,27 +119,27 @@ function Controller() {
 
   $.__views.container.add($.__views.__alloyId12);
   $.__views.__alloyId13 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", font: { fontWeight: "bold", fontSize: 18 }, text: 'STYLE DIALOG', id: "__alloyId13" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 24, fontWeight: "bold" }, text: 'STYLE DIALOG', id: "__alloyId13" });
 
   $.__views.container.add($.__views.__alloyId13);
   $.__views.__alloyId14 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Dialog open', dataStyle: "dialog", id: "__alloyId14" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Dialog open', dataStyle: "dialog", id: "__alloyId14" });
 
   $.__views.container.add($.__views.__alloyId14);
   openMenu ? $.addListener($.__views.__alloyId14, 'click', openMenu) : __defers['$.__views.__alloyId14!click!openMenu'] = true;$.__views.__alloyId15 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Dialog open one btn', dataStyle: "dialog", dataDataSet: "one", dataMessage: "Hello this is the dialog", id: "__alloyId15" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Dialog open one btn', dataStyle: "dialog", dataDataSet: "one", dataMessage: "Hello this is the dialog", id: "__alloyId15" });
 
   $.__views.container.add($.__views.__alloyId15);
   openMenu ? $.addListener($.__views.__alloyId15, 'click', openMenu) : __defers['$.__views.__alloyId15!click!openMenu'] = true;$.__views.__alloyId16 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Dialog open two btns longer message', dataStyle: "dialog", dataDataSet: "two", dataMessage: "Hello this is the dialog, with an large message so we can have some lines in it and we can test if the text will brake or not and if the reszie function is working properly.", id: "__alloyId16" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Dialog open two btns longer message', dataStyle: "dialog", dataDataSet: "two", dataMessage: "Hello this is the dialog, with an large message so we can have some lines in it and we can test if the text will brake or not and if the reszie function is working properly.", id: "__alloyId16" });
 
   $.__views.container.add($.__views.__alloyId16);
   openMenu ? $.addListener($.__views.__alloyId16, 'click', openMenu) : __defers['$.__views.__alloyId16!click!openMenu'] = true;$.__views.__alloyId17 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Dialog open three btns', dataStyle: "dialog", dataDataSet: "three", dataMessage: "Hello this is the dialog", id: "__alloyId17" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Dialog open three btns', dataStyle: "dialog", dataDataSet: "three", dataMessage: "Hello this is the dialog", id: "__alloyId17" });
 
   $.__views.container.add($.__views.__alloyId17);
   openMenu ? $.addListener($.__views.__alloyId17, 'click', openMenu) : __defers['$.__views.__alloyId17!click!openMenu'] = true;$.__views.__alloyId18 = Ti.UI.createLabel(
-  { width: Ti.UI.SIZE, height: Ti.UI.SIZE, color: "#355C7D", text: 'Dialog open long', dataStyle: "dialog", dataDataSet: "long", dataMessage: "Hello this is the dialog", id: "__alloyId18" });
+  { width: Ti.UI.FILL, height: Ti.UI.SIZE, color: "#355C7D", top: "5dp", bottom: "5dp", left: "5dp", right: "5dp", textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER, font: { fontSize: 18 }, text: 'Dialog open long', dataStyle: "dialog", dataDataSet: "long", dataMessage: "Hello this is the dialog", id: "__alloyId18" });
 
   $.__views.container.add($.__views.__alloyId18);
   openMenu ? $.addListener($.__views.__alloyId18, 'click', openMenu) : __defers['$.__views.__alloyId18!click!openMenu'] = true;exports.destroy = function () {};

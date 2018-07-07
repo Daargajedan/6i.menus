@@ -29,8 +29,9 @@
 		height	: "44dp",
 }
 "#navBarTitle": {
-	width		: Ti.UI.SIZE,
+	width		: Ti.UI.FILL,
 	height	: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
 	color	: "#FFF",
 	font: {
 		fontWeight: 'bold',
@@ -53,19 +54,28 @@
 },
 
 "Label": {
-	width	: Ti.UI.SIZE,
+	width		: Ti.UI.FILL,
 	height	: Ti.UI.SIZE,
-	color	: "#355C7D"
+	color		: "#355C7D",
+	top			:	"5dp",
+	bottom	:	"5dp",
+	left		:	"5dp",
+	right		:	"5dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 18,
+	}
 }
 ".margin": {
 		height: "44dp",
 }
 ".title": {
-	width	: Ti.UI.SIZE,
+	width		: Ti.UI.FILL,
 	height	: Ti.UI.SIZE,
-	color	: "#355C7D",
+	color		: "#355C7D",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
 	font: {
 		fontWeight: 'bold',
-		fontSize: 18
+		fontSize: 24
 	}
 }

@@ -15,5 +15,3 @@ delete data.width;
 
 // Set data to all elements for click event.
 $.container.data 	= args;
-//$.button.data 		= args;
-$//.title.data 			= args;

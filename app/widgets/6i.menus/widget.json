@@ -1,8 +1,8 @@
 {
 	"id": "6i.menus",
-	"description" : "",
+	"description" : "Titanium Alloy widget for custom bottom menu and dialog. for IOS and Android. Adjust the ui on the screen sizes.",
 	"author": "Maarten Dreves",
-	"version": "0.1",
+	"version": "0.2",
 	"copyright":"",
 	"license":"Public Domain",
 	"min-alloy-version": "0.1.16",

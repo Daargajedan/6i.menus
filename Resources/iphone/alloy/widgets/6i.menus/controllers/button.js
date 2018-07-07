@@ -79,8 +79,6 @@ function Controller() {
 
 	$.container.data = args;
 
-	$;
-
 
 
 

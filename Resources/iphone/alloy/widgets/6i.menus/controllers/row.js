@@ -66,8 +66,6 @@ function Controller() {
 
 	$.title.text = args.title;
 	$.row.height = args.height;
-	var data = args;
-	delete data.height;
 	$.row.data = args;
 
 

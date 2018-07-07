@@ -9,6 +9,6 @@
 	"os:ios": {},
 	"os:windows": {},
 	"dependencies": {
-			"6i.menus":"0.1"
+			"6i.menus":"0.2"
 	}
 }
