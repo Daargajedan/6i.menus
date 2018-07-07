@@ -44,7 +44,7 @@ $.menus = Alloy.createWidget('6i.menus', {
   // Can be overwritten by open
   showNavBar    : true,     // Show navbar on top of menu
   showBtnBar    : true,     // Show close button on the bottom of the menu, always true when style = dialog
-  showCloseBtn  : true,     // Doesnt work with dialog style
+  showCloseBtn  : true,     // Doesn't work with dialog style
 
   // Default data
   title         : 'Here a starting title', // A menu
@@ -61,7 +61,7 @@ Use null, undefined, 'null', 'undefined' to empty the values or remove titles me
 $.menus.open({
   showNavBar    : true,     // Show navbar on top of menu
   showBtnBar    : true,     // Show close button on the bottom of the menu, always true when style = dialog
-  showCloseBtn  : true,     // Doesnt work with dialog style
+  showCloseBtn  : true,     // Doesn't work with dialog style
 
   // Default data
   title         : '',       // A title
@@ -75,7 +75,7 @@ $.menus.open({
 $.menus.open({
   showNavBar    : true,     // Show navbar on top of menu
   showBtnBar    : true,     // Show close button on the bottom of the menu, always true when style = dialog
-  showCloseBtn  : true,     // Doesnt work with dialog style
+  showCloseBtn  : true,     // Doesn't work with dialog style
 
   // Default data
   styles        : 'dialog',                 // Open a message in dialog style.
